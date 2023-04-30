@@ -1,18 +1,12 @@
 console.log('script connected')
+
+
+
 function onInput() {
     console.log('onInput', document.getElementById('input').value)
+    document.getElementById('p').innerText = document.getElementById('input').value
 }
 
-function Sum(a, b) {
-    return a + b
-}
-
-function Mult(a, b) {
-    return a * b(2, 4)
-}
-
-console.log('Sum', Sum(3, 5))
-console.log('Mult', Mult(3, Sum))
 
 //************************* */
 
