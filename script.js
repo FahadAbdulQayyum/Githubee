@@ -1,4 +1,6 @@
-
+function onInput() {
+    console.log('onInput', document.getElementById('input').value)
+}
 
 
 //************************* */
