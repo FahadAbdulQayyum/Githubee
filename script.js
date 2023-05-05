@@ -1,11 +1,22 @@
 console.log('script connected')
 
-
+let arr = []
 
 function onInput() {
-    console.log('onInput', document.getElementById('input').value)
     document.getElementById('p').innerText = document.getElementById('input').value
 }
+
+function onMouse() {
+    document.getElementById('h1').innerText = 'Bye'
+}
+
+function onMouseLeave() {
+    document.getElementById('h1').innerText = 'Hello'
+}
+
+
+// It has been a time,I'ven't committed anything so,
+
 
 
 //************************* */
